@@ -22,7 +22,7 @@ public class DemController
 		}
 		else if(b>a)
 		{
-			sub=  b-a;	
+			sub= b-a;	
 		}
 		return sub;
 	}
@@ -39,7 +39,7 @@ public class DemController
 	@PostMapping("/add-post")
 	public int addPost(@RequestParam int a,@RequestParam int b)
 	{
-		return a*b;
+		return a+	b;
 	}
 	
 
