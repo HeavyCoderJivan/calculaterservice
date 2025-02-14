@@ -24,7 +24,9 @@ public class DemController
 		{
 			sub= b-a;	
 		}
+		
 		return sub;
+		
 	}
 	@GetMapping("/mul")
 	public int mul(@RequestParam int a,@RequestParam int b)
